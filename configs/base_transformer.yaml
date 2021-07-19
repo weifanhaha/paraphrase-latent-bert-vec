@@ -1,0 +1,30 @@
+save_model_path: "../models/base_transformer.pth"
+log_file: "../logs/base_transformer_training.txt"
+
+test_output_file: "../outputs/test_base_transformer.txt"
+val_output_file: "../outputs/val_base_transformer.txt"
+
+dataset: "quora_dataset"
+num_epochs: 70
+batch_size: 128
+
+d_model: 512
+d_inner_hid: 512
+d_k: 64
+d_v: 64
+
+n_head: 8
+n_layers: 6
+n_warmup_steps: 8000
+
+dropout: 0.1
+embs_share_weight: True
+proj_share_weight: True
+label_smoothing: False
+
+train_size: 100000
+val_size: 4000
+test_size: 20000
+
+is_bow: False
+lr: 0.001

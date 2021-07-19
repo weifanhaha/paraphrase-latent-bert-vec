@@ -1,0 +1,36 @@
+save_model_path: "../models/DNPG_base_transformer_bert_tokenizer_bert_bow_maskword_indivtopk.pth"
+log_file: "../logs/DNPG_base_transformer_bert_tokenizer_training_bert_bow_maskword_indiv_topk.txt"
+
+test_output_file: "../outputs/test_DNPG_transformer_bert_tokenizer_bow_maskword_indivtopk_out.txt"
+val_output_file: "../outputs/val_DNPG_transformer_bert_tokenizer_bow_msakword_indivtopk_out.txt"
+
+dataset: "quora_word_mask_prediction_dataset"
+num_epochs: 50
+batch_size: 100
+
+d_model: 450
+d_inner_hid: 512
+d_k: 50
+d_v: 50
+
+n_head: 9
+n_layers: 3
+n_warmup_steps: 12000
+
+dropout: 0.1
+embs_share_weight: True
+proj_share_weight: True
+label_smoothing: False
+
+train_size: 100000
+val_size: 4000
+test_size: 20000
+
+is_bow: True
+bow_strategy: "indiv_topk"
+indiv_topk: 10
+topk: 50
+
+only_bow: False
+replace_predict: False
+append_bow: True

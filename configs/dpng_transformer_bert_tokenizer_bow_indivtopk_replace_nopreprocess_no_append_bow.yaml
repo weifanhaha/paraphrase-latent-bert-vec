@@ -1,0 +1,37 @@
+save_model_path: "../models/DNPG_base_transformer_bert_tokenizer_bert_bow_indivtopk_replace_nopreprocess_no_append_bow.pth"
+log_file: "../logs/DNPG_base_transformer_bert_tokenizer_training_bert_bow_indiv_topk_replace_nopreprocess_no_append_bow.txt"
+
+test_output_file: "../outputs/test_DNPG_transformer_bert_tokenizer_bow_indivtopk_replace_out_nopreprocess_no_append_bow.txt"
+val_output_file: "../outputs/val_DNPG_transformer_bert_tokenizer_bow_indivtopk_replace_out_nopreprocess_no_append_bow.txt"
+
+dataset: "quora_bert_mask_predict_dataset"
+num_epochs: 50
+batch_size: 100
+
+d_model: 450
+d_inner_hid: 512
+d_k: 50
+d_v: 50
+
+n_head: 9
+n_layers: 3
+n_warmup_steps: 12000
+
+dropout: 0.1
+embs_share_weight: True
+proj_share_weight: True
+label_smoothing: False
+
+train_size: 100000
+val_size: 4000
+test_size: 20000
+
+is_bow: True
+bow_strategy: "indiv_topk"
+indiv_topk: 10
+topk: 25
+lr: 1e-3
+
+only_bow: False
+replace_predict: True
+append_bow: False

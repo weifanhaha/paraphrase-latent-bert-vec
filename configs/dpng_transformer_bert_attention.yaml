@@ -1,0 +1,30 @@
+save_model_path: "../models/transformer_bert_enc_attention.pth"
+log_file: "../logs/transformer_bert_enc_attention.txt"
+test_output_file: "../outputs/test_transformer_bert_enc_attention.txt"
+val_output_file: "../outputs/val_transformer_bert_enc_attention.txt"
+preprocessed_folder: "../data/preprocess_quora_bert_mask_predict/"
+dataset: "quora_bert_dataset"
+
+num_epochs: 50
+batch_size: 100
+
+d_model: 450
+d_inner_hid: 512
+d_k: 50
+d_v: 50
+
+n_head: 9
+n_layers: 3
+n_warmup_steps: 12000
+
+dropout: 0.1
+embs_share_weight: True
+proj_share_weight: True
+label_smoothing: False
+
+train_size: 100000
+val_size: 4000
+test_size: 20000
+
+is_bow: False
+lr: 1e-3

@@ -1,0 +1,30 @@
+save_model_path: "../models/DNPG_base_transformer_wordnet_aug_uncased.pth"
+log_file: "../logs/DNPG_base_transformer_training_wordnet_aug_uncased.txt"
+
+test_output_file: "../outputs/test_DNPG_base_transformer_wordnet_aug_uncased.txt"
+val_output_file: "../outputs/val_DNPG_base_transformer_wordnet_aug_uncased.txt"
+
+dataset: "quora_wordnet_aug_dataset"
+num_epochs: 50
+batch_size: 128
+
+d_model: 450
+d_inner_hid: 512
+d_k: 50
+d_v: 50
+
+n_head: 9
+n_layers: 3
+n_warmup_steps: 12000
+
+dropout: 0.1
+embs_share_weight: True
+proj_share_weight: True
+label_smoothing: False
+
+train_size: 100000
+val_size: 4000
+test_size: 20000
+
+is_bow: False
+lr: 1e-3

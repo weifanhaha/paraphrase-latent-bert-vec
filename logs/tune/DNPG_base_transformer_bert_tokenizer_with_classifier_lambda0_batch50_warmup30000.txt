@@ -1,0 +1,143 @@
+Config: {'save_model_path': '../models/DNPG_base_transformer_bert_tokenizer_with_classifier.pth', 'log_file': '../logs/DNPG_base_transformer_bert_tokenizer_with_classifier.txt', 'test_output_file': '../outputs/test_DNPG_transformer_bert_tokenizer_with_classifier_out.txt', 'val_output_file': '../outputs/val_DNPG_transformer_bert_tokenizer_with_classifier_out.txt', 'dataset': 'quora_bert_dataset', 'num_epochs': 50, 'batch_size': 50, 'd_model': 450, 'd_inner_hid': 512, 'd_k': 50, 'd_v': 50, 'n_head': 9, 'n_layers': 3, 'n_warmup_steps': 30000, 'dropout': 0.1, 'embs_share_weight': True, 'proj_share_weight': True, 'label_smoothing': False, 'train_size': 100000, 'val_size': 4000, 'test_size': 20000, 'is_bow': False, 'lr': '1e-3'}
+  - (Training)   ppl:  20301.76403, accuracy: 7.528 %, avg_cls_loss:  0.75905, avg_loss:  6600.32555, elapse: 611.626 sec
+  - (Validation) ppl:  9952.02011, accuracy: 7.821 %, avg_cls_loss:  0.74849, avg_loss:  6090.83948, elapse: 9.100 sec
+model saved in Epoch 1
+  - (Training)   ppl:  2776.76053, accuracy: 10.226 %, avg_cls_loss:  0.75311, avg_loss:  5276.44723, elapse: 611.530 sec
+  - (Validation) ppl:  744.52017, accuracy: 14.947 %, avg_cls_loss:  0.77242, avg_loss:  4375.31939, elapse: 9.097 sec
+model saved in Epoch 2
+  - (Training)   ppl:  434.61617, accuracy: 15.863 %, avg_cls_loss:  0.77439, avg_loss:  4042.30322, elapse: 611.071 sec
+  - (Validation) ppl:  254.10620, accuracy: 21.518 %, avg_cls_loss:  0.78037, avg_loss:  3664.05379, elapse: 9.093 sec
+model saved in Epoch 3
+  - (Training)   ppl:  190.97258, accuracy: 23.954 %, avg_cls_loss:  0.77730, avg_loss:  3495.07444, elapse: 611.158 sec
+  - (Validation) ppl:  138.46233, accuracy: 27.137 %, avg_cls_loss:  0.77898, avg_loss:  3262.33039, elapse: 9.079 sec
+model saved in Epoch 4
+  - (Training)   ppl:  109.51301, accuracy: 30.706 %, avg_cls_loss:  0.77224, avg_loss:  3125.02195, elapse: 612.143 sec
+  - (Validation) ppl:  75.33449, accuracy: 35.181 %, avg_cls_loss:  0.76774, avg_loss:  2859.61028, elapse: 9.084 sec
+model saved in Epoch 5
+  - (Training)   ppl:  64.78513, accuracy: 36.802 %, avg_cls_loss:  0.76927, avg_loss:  2775.67800, elapse: 614.231 sec
+  - (Validation) ppl:  45.86882, accuracy: 41.124 %, avg_cls_loss:  0.76292, avg_loss:  2531.33107, elapse: 9.092 sec
+model saved in Epoch 6
+  - (Training)   ppl:  41.98107, accuracy: 42.082 %, avg_cls_loss:  0.76496, avg_loss:  2486.96410, elapse: 613.824 sec
+  - (Validation) ppl:  30.55430, accuracy: 46.029 %, avg_cls_loss:  0.76121, avg_loss:  2262.51575, elapse: 9.084 sec
+model saved in Epoch 7
+  - (Training)   ppl:  29.62301, accuracy: 46.329 %, avg_cls_loss:  0.75974, avg_loss:  2254.94032, elapse: 611.085 sec
+  - (Validation) ppl:  21.92765, accuracy: 50.518 %, avg_cls_loss:  0.75489, avg_loss:  2043.00872, elapse: 9.095 sec
+model saved in Epoch 8
+  - (Training)   ppl:  22.27149, accuracy: 49.927 %, avg_cls_loss:  0.75736, avg_loss:  2065.12234, elapse: 613.010 sec
+  - (Validation) ppl:  17.05386, accuracy: 53.960 %, avg_cls_loss:  0.75586, avg_loss:  1876.68850, elapse: 9.101 sec
+model saved in Epoch 9
+  - (Training)   ppl:  17.71601, accuracy: 52.884 %, avg_cls_loss:  0.75723, avg_loss:  1912.83976, elapse: 614.238 sec
+  - (Validation) ppl:  13.93371, accuracy: 56.200 %, avg_cls_loss:  0.75533, avg_loss:  1742.99180, elapse: 9.100 sec
+model saved in Epoch 10
+  - (Training)   ppl:  14.77694, accuracy: 55.090 %, avg_cls_loss:  0.75623, avg_loss:  1792.12486, elapse: 612.595 sec
+  - (Validation) ppl:  12.14134, accuracy: 58.258 %, avg_cls_loss:  0.73956, avg_loss:  1651.88631, elapse: 9.106 sec
+model saved in Epoch 11
+  - (Training)   ppl:  12.77839, accuracy: 56.810 %, avg_cls_loss:  0.75218, avg_loss:  1695.42543, elapse: 611.971 sec
+  - (Validation) ppl:  10.60728, accuracy: 59.884 %, avg_cls_loss:  0.74710, avg_loss:  1562.51347, elapse: 9.090 sec
+model saved in Epoch 12
+  - (Training)   ppl:  11.38679, accuracy: 58.152 %, avg_cls_loss:  0.75076, avg_loss:  1618.69701, elapse: 611.701 sec
+  - (Validation) ppl:  9.69773, accuracy: 60.959 %, avg_cls_loss:  0.74296, avg_loss:  1503.19756, elapse: 9.095 sec
+model saved in Epoch 13
+  - (Training)   ppl:  10.37809, accuracy: 59.184 %, avg_cls_loss:  0.75031, avg_loss:  1556.97089, elapse: 613.187 sec
+  - (Validation) ppl:  8.88235, accuracy: 62.012 %, avg_cls_loss:  0.74344, avg_loss:  1445.08725, elapse: 9.108 sec
+model saved in Epoch 14
+  - (Training)   ppl:  9.60813, accuracy: 60.013 %, avg_cls_loss:  0.74971, avg_loss:  1505.67283, elapse: 613.514 sec
+  - (Validation) ppl:  8.57359, accuracy: 62.384 %, avg_cls_loss:  0.74932, avg_loss:  1421.67819, elapse: 9.106 sec
+model saved in Epoch 15
+  - (Training)   ppl:  8.93765, accuracy: 60.884 %, avg_cls_loss:  0.74916, avg_loss:  1457.53525, elapse: 614.165 sec
+  - (Validation) ppl:  7.99612, accuracy: 63.646 %, avg_cls_loss:  0.74682, avg_loss:  1375.54186, elapse: 9.114 sec
+model saved in Epoch 16
+  - (Training)   ppl:  8.21611, accuracy: 61.941 %, avg_cls_loss:  0.74996, avg_loss:  1401.52036, elapse: 613.032 sec
+  - (Validation) ppl:  7.42405, accuracy: 64.411 %, avg_cls_loss:  0.74993, avg_loss:  1326.42600, elapse: 9.097 sec
+model saved in Epoch 17
+  - (Training)   ppl:  7.63383, accuracy: 62.927 %, avg_cls_loss:  0.75122, avg_loss:  1352.60392, elapse: 613.991 sec
+  - (Validation) ppl:  6.98175, accuracy: 65.104 %, avg_cls_loss:  0.74300, avg_loss:  1285.78426, elapse: 9.097 sec
+model saved in Epoch 18
+  - (Training)   ppl:  7.13287, accuracy: 63.795 %, avg_cls_loss:  0.74952, avg_loss:  1307.43554, elapse: 613.156 sec
+  - (Validation) ppl:  6.67449, accuracy: 65.471 %, avg_cls_loss:  0.74829, avg_loss:  1256.00512, elapse: 9.095 sec
+model saved in Epoch 19
+  - (Training)   ppl:  6.72977, accuracy: 64.571 %, avg_cls_loss:  0.75008, avg_loss:  1268.72393, elapse: 614.810 sec
+  - (Validation) ppl:  6.48115, accuracy: 66.289 %, avg_cls_loss:  0.75174, avg_loss:  1236.55585, elapse: 9.102 sec
+model saved in Epoch 20
+  - (Training)   ppl:  6.39045, accuracy: 65.317 %, avg_cls_loss:  0.74812, avg_loss:  1234.29541, elapse: 614.685 sec
+  - (Validation) ppl:  6.26605, accuracy: 66.863 %, avg_cls_loss:  0.74567, avg_loss:  1214.22463, elapse: 9.118 sec
+model saved in Epoch 21
+  - (Training)   ppl:  6.09733, accuracy: 65.934 %, avg_cls_loss:  0.74776, avg_loss:  1203.04995, elapse: 613.713 sec
+  - (Validation) ppl:  6.13746, accuracy: 67.086 %, avg_cls_loss:  0.74644, avg_loss:  1200.50452, elapse: 9.112 sec
+model saved in Epoch 22
+  - (Training)   ppl:  5.83916, accuracy: 66.572 %, avg_cls_loss:  0.74854, avg_loss:  1174.25933, elapse: 613.565 sec
+  - (Validation) ppl:  5.90603, accuracy: 67.590 %, avg_cls_loss:  0.74739, avg_loss:  1175.07278, elapse: 9.119 sec
+model saved in Epoch 23
+  - (Training)   ppl:  5.60655, accuracy: 67.133 %, avg_cls_loss:  0.74944, avg_loss:  1147.20713, elapse: 613.885 sec
+  - (Validation) ppl:  5.81728, accuracy: 67.908 %, avg_cls_loss:  0.74744, avg_loss:  1165.05524, elapse: 9.113 sec
+model saved in Epoch 24
+  - (Training)   ppl:  5.41043, accuracy: 67.580 %, avg_cls_loss:  0.75008, avg_loss:  1123.51305, elapse: 612.899 sec
+  - (Validation) ppl:  5.65894, accuracy: 68.290 %, avg_cls_loss:  0.74715, avg_loss:  1146.79603, elapse: 9.128 sec
+model saved in Epoch 25
+  - (Training)   ppl:  5.23191, accuracy: 68.093 %, avg_cls_loss:  0.75220, avg_loss:  1101.18457, elapse: 612.888 sec
+  - (Validation) ppl:  5.55441, accuracy: 68.692 %, avg_cls_loss:  0.74655, avg_loss:  1134.45957, elapse: 9.101 sec
+model saved in Epoch 26
+  - (Training)   ppl:  5.06510, accuracy: 68.525 %, avg_cls_loss:  0.74911, avg_loss:  1079.62259, elapse: 613.203 sec
+  - (Validation) ppl:  5.45449, accuracy: 68.943 %, avg_cls_loss:  0.74854, avg_loss:  1122.44889, elapse: 9.097 sec
+model saved in Epoch 27
+  - (Training)   ppl:  4.93067, accuracy: 68.932 %, avg_cls_loss:  0.75198, avg_loss:  1061.72264, elapse: 611.606 sec
+  - (Validation) ppl:  5.37255, accuracy: 69.087 %, avg_cls_loss:  0.74722, avg_loss:  1112.43376, elapse: 9.107 sec
+model saved in Epoch 28
+  - (Training)   ppl:  4.79724, accuracy: 69.350 %, avg_cls_loss:  0.74996, avg_loss:  1043.46648, elapse: 613.812 sec
+  - (Validation) ppl:  5.29925, accuracy: 69.572 %, avg_cls_loss:  0.74468, avg_loss:  1103.34420, elapse: 9.095 sec
+model saved in Epoch 29
+  - (Training)   ppl:  4.67945, accuracy: 69.699 %, avg_cls_loss:  0.74726, avg_loss:  1026.92272, elapse: 613.010 sec
+  - (Validation) ppl:  5.22721, accuracy: 69.863 %, avg_cls_loss:  0.74710, avg_loss:  1094.28833, elapse: 9.112 sec
+model saved in Epoch 30
+  - (Training)   ppl:  4.56618, accuracy: 70.071 %, avg_cls_loss:  0.74940, avg_loss:  1010.61647, elapse: 614.031 sec
+  - (Validation) ppl:  5.22848, accuracy: 69.910 %, avg_cls_loss:  0.74786, avg_loss:  1094.44932, elapse: 9.102 sec
+  - (Training)   ppl:  4.46046, accuracy: 70.403 %, avg_cls_loss:  0.75052, avg_loss:  995.02783, elapse: 612.962 sec
+  - (Validation) ppl:  5.16114, accuracy: 70.133 %, avg_cls_loss:  0.74846, avg_loss:  1085.87186, elapse: 9.099 sec
+model saved in Epoch 32
+  - (Training)   ppl:  4.36393, accuracy: 70.720 %, avg_cls_loss:  0.75047, avg_loss:  980.46891, elapse: 612.035 sec
+  - (Validation) ppl:  5.07544, accuracy: 70.131 %, avg_cls_loss:  0.74830, avg_loss:  1074.79317, elapse: 9.098 sec
+model saved in Epoch 33
+  - (Training)   ppl:  4.27847, accuracy: 70.995 %, avg_cls_loss:  0.75211, avg_loss:  967.30706, elapse: 613.480 sec
+  - (Validation) ppl:  5.02922, accuracy: 70.266 %, avg_cls_loss:  0.74597, avg_loss:  1068.74061, elapse: 9.107 sec
+model saved in Epoch 34
+  - (Training)   ppl:  4.19319, accuracy: 71.310 %, avg_cls_loss:  0.75125, avg_loss:  953.91012, elapse: 611.991 sec
+  - (Validation) ppl:  5.06072, accuracy: 70.311 %, avg_cls_loss:  0.74702, avg_loss:  1072.87122, elapse: 9.094 sec
+  - (Training)   ppl:  4.12702, accuracy: 71.551 %, avg_cls_loss:  0.75018, avg_loss:  943.32459, elapse: 613.711 sec
+  - (Validation) ppl:  4.96542, accuracy: 70.615 %, avg_cls_loss:  0.74968, avg_loss:  1060.29224, elapse: 9.074 sec
+model saved in Epoch 36
+  - (Training)   ppl:  4.05402, accuracy: 71.800 %, avg_cls_loss:  0.75190, avg_loss:  931.44875, elapse: 612.834 sec
+  - (Validation) ppl:  4.97582, accuracy: 70.785 %, avg_cls_loss:  0.74497, avg_loss:  1061.67738, elapse: 9.084 sec
+  - (Training)   ppl:  3.99424, accuracy: 72.059 %, avg_cls_loss:  0.75055, avg_loss:  921.56260, elapse: 613.538 sec
+  - (Validation) ppl:  4.97214, accuracy: 70.830 %, avg_cls_loss:  0.74726, avg_loss:  1061.18721, elapse: 9.092 sec
+  - (Training)   ppl:  3.92762, accuracy: 72.309 %, avg_cls_loss:  0.75040, avg_loss:  910.36910, elapse: 614.087 sec
+  - (Validation) ppl:  4.96129, accuracy: 70.993 %, avg_cls_loss:  0.74567, avg_loss:  1059.74264, elapse: 9.097 sec
+model saved in Epoch 39
+  - (Training)   ppl:  3.87690, accuracy: 72.508 %, avg_cls_loss:  0.75099, avg_loss:  901.71959, elapse: 613.236 sec
+  - (Validation) ppl:  4.92075, accuracy: 71.091 %, avg_cls_loss:  0.74676, avg_loss:  1054.31352, elapse: 9.108 sec
+model saved in Epoch 40
+  - (Training)   ppl:  3.81826, accuracy: 72.761 %, avg_cls_loss:  0.75133, avg_loss:  891.57756, elapse: 613.555 sec
+  - (Validation) ppl:  4.88812, accuracy: 71.244 %, avg_cls_loss:  0.74631, avg_loss:  1049.91072, elapse: 9.084 sec
+model saved in Epoch 41
+  - (Training)   ppl:  3.76034, accuracy: 72.939 %, avg_cls_loss:  0.75224, avg_loss:  881.40557, elapse: 614.553 sec
+  - (Validation) ppl:  4.88363, accuracy: 71.333 %, avg_cls_loss:  0.74954, avg_loss:  1049.30392, elapse: 9.101 sec
+model saved in Epoch 42
+  - (Training)   ppl:  3.70555, accuracy: 73.189 %, avg_cls_loss:  0.75162, avg_loss:  871.63807, elapse: 612.073 sec
+  - (Validation) ppl:  4.83373, accuracy: 71.237 %, avg_cls_loss:  0.74605, avg_loss:  1042.50806, elapse: 9.092 sec
+model saved in Epoch 43
+  - (Training)   ppl:  3.65919, accuracy: 73.403 %, avg_cls_loss:  0.75202, avg_loss:  863.26032, elapse: 612.237 sec
+  - (Validation) ppl:  4.81984, accuracy: 71.501 %, avg_cls_loss:  0.74717, avg_loss:  1040.60378, elapse: 9.103 sec
+model saved in Epoch 44
+  - (Training)   ppl:  3.61288, accuracy: 73.571 %, avg_cls_loss:  0.75364, avg_loss:  854.78451, elapse: 614.133 sec
+  - (Validation) ppl:  4.83731, accuracy: 71.473 %, avg_cls_loss:  0.74626, avg_loss:  1042.99771, elapse: 9.089 sec
+  - (Training)   ppl:  3.57025, accuracy: 73.782 %, avg_cls_loss:  0.75211, avg_loss:  846.88700, elapse: 612.893 sec
+  - (Validation) ppl:  4.77494, accuracy: 71.805 %, avg_cls_loss:  0.74820, avg_loss:  1034.41081, elapse: 9.095 sec
+model saved in Epoch 46
+  - (Training)   ppl:  3.52653, accuracy: 73.970 %, avg_cls_loss:  0.75316, avg_loss:  838.68783, elapse: 612.941 sec
+  - (Validation) ppl:  4.81047, accuracy: 71.647 %, avg_cls_loss:  0.74726, avg_loss:  1039.31603, elapse: 9.103 sec
+  - (Training)   ppl:  3.48175, accuracy: 74.174 %, avg_cls_loss:  0.75266, avg_loss:  830.18188, elapse: 614.337 sec
+  - (Validation) ppl:  4.79950, accuracy: 71.798 %, avg_cls_loss:  0.74854, avg_loss:  1037.80590, elapse: 9.097 sec
+  - (Training)   ppl:  3.44799, accuracy: 74.311 %, avg_cls_loss:  0.75316, avg_loss:  823.69888, elapse: 614.021 sec
+  - (Validation) ppl:  4.80401, accuracy: 71.922 %, avg_cls_loss:  0.74939, avg_loss:  1038.42692, elapse: 9.108 sec
+  - (Training)   ppl:  3.40828, accuracy: 74.524 %, avg_cls_loss:  0.75275, avg_loss:  815.99058, elapse: 615.188 sec
+  - (Validation) ppl:  4.74186, accuracy: 71.805 %, avg_cls_loss:  0.74632, avg_loss:  1029.81151, elapse: 9.108 sec
+model saved in Epoch 50

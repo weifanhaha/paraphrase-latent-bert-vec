@@ -1,0 +1,62 @@
+#!/bin/bash
+
+# Modify this to control to start from which stage
+# 1: preprocess, 2: train, 3: predict, 4: evaluate
+stage=1
+
+# preprocess config
+preprocess=1
+
+# config_path='../configs/base_transformer.yaml'
+# config_path='../configs/dpng_transformer.yaml'
+config_path='../configs/dpng_transformer_bert_tokenizer_bow.yaml'
+# config_path='../configs/dpng_transformer_bert_tokenizer_bow_indivtopk.yaml'
+# config_path='../configs/dpng_transformer_bert_tokenizer_bow_indiv_neighbors.yaml'
+# config_path='../configs/dpng_transformer_bert_tokenizer_bow_maskword_indivtopk.yaml'
+# config_path='../configs/dpng_transformer_bert_tokenizer_bow_indivtopk_onlybow.yaml'
+
+if [[ $config_path == *"bert"* ]]; then
+    use_bert=1
+else
+    use_bert=0
+fi
+
+if [ $preprocess -gt 0 ]; then
+    preprocessed_cmd='--preprocessed'
+else
+    preprocessed_cmd=''
+fi
+
+if [ $stage -le 1 ]; then
+    echo "### Stage 1: Preprocess the bert mask predict data and dump to np file ###"
+    if [ $preprocess -gt 0 ]; then
+        python3 preprocess_bert_predict.py --config_path $config_path
+    fi
+    echo "#############################################################"
+fi
+
+if [ $stage -le 2 ]; then
+    echo "### Stage 2: Train Seq2seq model ###"
+    python3 train.py --config_path $config_path $preprocessed_cmd
+    echo "#############################################################"
+fi
+
+# todo: modify the predict and evaluate files
+if [ $stage -le 3 ]; then
+    echo "### Stage 3: Predict Seq2seq model with test data ###"
+    if [ $use_bert == 1 ]; then
+        python3 predict_bert.py --config_path $config_path $preprocessed_cmd
+    else
+        python3 predict.py --config_path $config_path
+    fi
+    echo "#############################################################"
+fi
+
+
+if [ $stage -le 4 ]; then
+    echo "### Stage 4: Evaluate the predicted result ###"
+    python3 evaluate.py --config_path $config_path
+
+    echo "#############################################################"
+fi
+

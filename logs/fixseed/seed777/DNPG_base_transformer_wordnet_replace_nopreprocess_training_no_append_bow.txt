@@ -1,0 +1,151 @@
+Config: {'save_model_path': '../models/DNPG_base_transformer_wordnet_replace_nopreprocess_no_append_bow.pth', 'log_file': '../logs/DNPG_base_transformer_wordnet_replace_nopreprocess_training_no_append_bow.txt', 'test_output_file': '../outputs/test_DNPG_base_transformer_wordnet_replace_nopreprocess_no_append_bow.txt', 'val_output_file': '../outputs/val_DNPG_base_transformer_wordnet_replace_nopreprocess_no_append_bow.txt', 'dataset': 'quora_wordnet_dataset', 'num_epochs': 50, 'batch_size': 128, 'd_model': 450, 'd_inner_hid': 512, 'd_k': 50, 'd_v': 50, 'n_head': 9, 'n_layers': 3, 'n_warmup_steps': 12000, 'dropout': 0.1, 'embs_share_weight': True, 'proj_share_weight': True, 'label_smoothing': False, 'train_size': 100000, 'val_size': 4000, 'test_size': 20000, 'is_bow': False, 'lr': '1e-3', 'use_wordnet': True, 'indiv_k': 4, 'replace_origin': True, 'append_bow': False}
+- (Training)   ppl:  28203.69720, accuracy: 8.265 %, elapse: 135.523 sec
+- (Validation) ppl:  17592.92870, accuracy: 7.729 %, elapse: 2.405 sec
+model saved in Epoch 1
+- (Training)   ppl:  6966.94236, accuracy: 9.492 %, elapse: 132.231 sec
+- (Validation) ppl:  2176.77096, accuracy: 13.756 %, elapse: 2.386 sec
+model saved in Epoch 2
+- (Training)   ppl:  740.23281, accuracy: 14.605 %, elapse: 131.935 sec
+- (Validation) ppl:  342.23361, accuracy: 15.868 %, elapse: 2.386 sec
+model saved in Epoch 3
+- (Training)   ppl:  207.75133, accuracy: 23.986 %, elapse: 132.468 sec
+- (Validation) ppl:  121.24827, accuracy: 31.102 %, elapse: 2.391 sec
+model saved in Epoch 4
+- (Training)   ppl:  91.04245, accuracy: 33.536 %, elapse: 132.110 sec
+- (Validation) ppl:  68.65913, accuracy: 37.042 %, elapse: 2.381 sec
+model saved in Epoch 5
+- (Training)   ppl:  57.66285, accuracy: 39.189 %, elapse: 132.514 sec
+- (Validation) ppl:  45.39366, accuracy: 42.073 %, elapse: 2.382 sec
+model saved in Epoch 6
+- (Training)   ppl:  39.61683, accuracy: 43.980 %, elapse: 132.677 sec
+- (Validation) ppl:  31.64178, accuracy: 46.634 %, elapse: 2.389 sec
+model saved in Epoch 7
+- (Training)   ppl:  29.07465, accuracy: 47.566 %, elapse: 132.865 sec
+- (Validation) ppl:  23.47507, accuracy: 49.728 %, elapse: 2.387 sec
+model saved in Epoch 8
+- (Training)   ppl:  22.44718, accuracy: 50.385 %, elapse: 132.768 sec
+- (Validation) ppl:  18.18979, accuracy: 52.893 %, elapse: 2.380 sec
+model saved in Epoch 9
+- (Training)   ppl:  18.00513, accuracy: 52.752 %, elapse: 133.174 sec
+- (Validation) ppl:  14.73826, accuracy: 55.137 %, elapse: 2.411 sec
+model saved in Epoch 10
+- (Training)   ppl:  14.89949, accuracy: 54.785 %, elapse: 132.433 sec
+- (Validation) ppl:  12.27566, accuracy: 57.186 %, elapse: 2.383 sec
+model saved in Epoch 11
+- (Training)   ppl:  12.70991, accuracy: 56.476 %, elapse: 132.838 sec
+- (Validation) ppl:  10.68503, accuracy: 58.634 %, elapse: 2.393 sec
+model saved in Epoch 12
+- (Training)   ppl:  11.12062, accuracy: 57.867 %, elapse: 132.763 sec
+- (Validation) ppl:  9.25552, accuracy: 60.355 %, elapse: 2.383 sec
+model saved in Epoch 13
+- (Training)   ppl:  9.90249, accuracy: 59.138 %, elapse: 132.618 sec
+- (Validation) ppl:  8.42060, accuracy: 61.575 %, elapse: 2.386 sec
+model saved in Epoch 14
+- (Training)   ppl:  8.99615, accuracy: 60.159 %, elapse: 132.212 sec
+- (Validation) ppl:  7.71171, accuracy: 62.562 %, elapse: 2.379 sec
+model saved in Epoch 15
+- (Training)   ppl:  8.28487, accuracy: 61.047 %, elapse: 133.056 sec
+- (Validation) ppl:  7.08574, accuracy: 63.615 %, elapse: 2.400 sec
+model saved in Epoch 16
+- (Training)   ppl:  7.56671, accuracy: 62.172 %, elapse: 133.147 sec
+- (Validation) ppl:  6.41911, accuracy: 64.926 %, elapse: 2.389 sec
+model saved in Epoch 17
+- (Training)   ppl:  6.96744, accuracy: 63.201 %, elapse: 132.901 sec
+- (Validation) ppl:  6.01531, accuracy: 65.768 %, elapse: 2.393 sec
+model saved in Epoch 18
+- (Training)   ppl:  6.45654, accuracy: 64.175 %, elapse: 132.559 sec
+- (Validation) ppl:  5.59970, accuracy: 66.683 %, elapse: 2.392 sec
+model saved in Epoch 19
+- (Training)   ppl:  6.05711, accuracy: 64.986 %, elapse: 132.802 sec
+- (Validation) ppl:  5.29036, accuracy: 67.560 %, elapse: 2.393 sec
+model saved in Epoch 20
+- (Training)   ppl:  5.69602, accuracy: 65.804 %, elapse: 132.880 sec
+- (Validation) ppl:  5.00647, accuracy: 68.309 %, elapse: 2.386 sec
+model saved in Epoch 21
+- (Training)   ppl:  5.39118, accuracy: 66.550 %, elapse: 132.977 sec
+- (Validation) ppl:  4.71444, accuracy: 69.246 %, elapse: 2.391 sec
+model saved in Epoch 22
+- (Training)   ppl:  5.13519, accuracy: 67.199 %, elapse: 132.340 sec
+- (Validation) ppl:  4.55756, accuracy: 69.767 %, elapse: 2.385 sec
+model saved in Epoch 23
+- (Training)   ppl:  4.90722, accuracy: 67.825 %, elapse: 132.487 sec
+- (Validation) ppl:  4.41013, accuracy: 70.322 %, elapse: 2.391 sec
+model saved in Epoch 24
+- (Training)   ppl:  4.71351, accuracy: 68.415 %, elapse: 133.073 sec
+- (Validation) ppl:  4.21225, accuracy: 70.992 %, elapse: 2.386 sec
+model saved in Epoch 25
+- (Training)   ppl:  4.52292, accuracy: 68.966 %, elapse: 132.747 sec
+- (Validation) ppl:  4.06531, accuracy: 71.502 %, elapse: 2.402 sec
+model saved in Epoch 26
+- (Training)   ppl:  4.37845, accuracy: 69.471 %, elapse: 132.423 sec
+- (Validation) ppl:  3.93069, accuracy: 72.172 %, elapse: 2.385 sec
+model saved in Epoch 27
+- (Training)   ppl:  4.21715, accuracy: 69.986 %, elapse: 132.208 sec
+- (Validation) ppl:  3.82120, accuracy: 72.498 %, elapse: 2.381 sec
+model saved in Epoch 28
+- (Training)   ppl:  4.08520, accuracy: 70.505 %, elapse: 132.759 sec
+- (Validation) ppl:  3.71152, accuracy: 73.070 %, elapse: 2.377 sec
+model saved in Epoch 29
+- (Training)   ppl:  3.96493, accuracy: 70.899 %, elapse: 132.506 sec
+- (Validation) ppl:  3.64263, accuracy: 73.135 %, elapse: 2.386 sec
+model saved in Epoch 30
+- (Training)   ppl:  3.85582, accuracy: 71.329 %, elapse: 132.462 sec
+- (Validation) ppl:  3.55854, accuracy: 73.674 %, elapse: 2.390 sec
+model saved in Epoch 31
+- (Training)   ppl:  3.75239, accuracy: 71.724 %, elapse: 132.746 sec
+- (Validation) ppl:  3.46610, accuracy: 74.201 %, elapse: 2.389 sec
+model saved in Epoch 32
+- (Training)   ppl:  3.65853, accuracy: 72.137 %, elapse: 132.508 sec
+- (Validation) ppl:  3.38719, accuracy: 74.518 %, elapse: 2.381 sec
+model saved in Epoch 33
+- (Training)   ppl:  3.56593, accuracy: 72.507 %, elapse: 132.681 sec
+- (Validation) ppl:  3.29284, accuracy: 75.057 %, elapse: 2.385 sec
+model saved in Epoch 34
+- (Training)   ppl:  3.48734, accuracy: 72.856 %, elapse: 132.505 sec
+- (Validation) ppl:  3.24982, accuracy: 75.192 %, elapse: 2.389 sec
+model saved in Epoch 35
+- (Training)   ppl:  3.40293, accuracy: 73.250 %, elapse: 132.930 sec
+- (Validation) ppl:  3.16216, accuracy: 75.387 %, elapse: 2.390 sec
+model saved in Epoch 36
+- (Training)   ppl:  3.33431, accuracy: 73.577 %, elapse: 132.602 sec
+- (Validation) ppl:  3.13943, accuracy: 75.899 %, elapse: 2.388 sec
+model saved in Epoch 37
+- (Training)   ppl:  3.26690, accuracy: 73.874 %, elapse: 133.260 sec
+- (Validation) ppl:  3.08374, accuracy: 76.086 %, elapse: 2.404 sec
+model saved in Epoch 38
+- (Training)   ppl:  3.20105, accuracy: 74.199 %, elapse: 132.570 sec
+- (Validation) ppl:  3.03640, accuracy: 76.440 %, elapse: 2.385 sec
+model saved in Epoch 39
+- (Training)   ppl:  3.14465, accuracy: 74.461 %, elapse: 136.587 sec
+- (Validation) ppl:  2.99366, accuracy: 76.774 %, elapse: 2.394 sec
+model saved in Epoch 40
+- (Training)   ppl:  3.08577, accuracy: 74.793 %, elapse: 133.042 sec
+- (Validation) ppl:  2.97177, accuracy: 76.895 %, elapse: 2.391 sec
+model saved in Epoch 41
+- (Training)   ppl:  3.03216, accuracy: 75.093 %, elapse: 132.328 sec
+- (Validation) ppl:  2.90305, accuracy: 77.444 %, elapse: 2.393 sec
+model saved in Epoch 42
+- (Training)   ppl:  2.98368, accuracy: 75.314 %, elapse: 132.950 sec
+- (Validation) ppl:  2.84813, accuracy: 77.658 %, elapse: 2.391 sec
+model saved in Epoch 43
+- (Training)   ppl:  2.93166, accuracy: 75.596 %, elapse: 133.224 sec
+- (Validation) ppl:  2.82638, accuracy: 77.766 %, elapse: 2.411 sec
+model saved in Epoch 44
+- (Training)   ppl:  2.88642, accuracy: 75.868 %, elapse: 132.732 sec
+- (Validation) ppl:  2.77970, accuracy: 78.323 %, elapse: 2.403 sec
+model saved in Epoch 45
+- (Training)   ppl:  2.84277, accuracy: 76.105 %, elapse: 132.957 sec
+- (Validation) ppl:  2.76486, accuracy: 78.282 %, elapse: 2.395 sec
+model saved in Epoch 46
+- (Training)   ppl:  2.80153, accuracy: 76.336 %, elapse: 132.910 sec
+- (Validation) ppl:  2.73705, accuracy: 78.614 %, elapse: 2.395 sec
+model saved in Epoch 47
+- (Training)   ppl:  2.76337, accuracy: 76.571 %, elapse: 132.837 sec
+- (Validation) ppl:  2.72243, accuracy: 78.846 %, elapse: 2.398 sec
+model saved in Epoch 48
+- (Training)   ppl:  2.72539, accuracy: 76.787 %, elapse: 132.858 sec
+- (Validation) ppl:  2.66405, accuracy: 79.242 %, elapse: 2.406 sec
+model saved in Epoch 49
+- (Training)   ppl:  2.69277, accuracy: 76.977 %, elapse: 143.323 sec
+- (Validation) ppl:  2.64957, accuracy: 79.296 %, elapse: 2.391 sec
+model saved in Epoch 50
