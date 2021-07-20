@@ -1,5 +1,6 @@
 models/*
-outputs/*
+outputs/*.txt
+outputs/**/*.txt
 data/*.npy
 data/preprocess_quora_bert_mask_predict/*
-src/.ipynb_checkpoints/*
+**/.ipynb_checkpoints/*

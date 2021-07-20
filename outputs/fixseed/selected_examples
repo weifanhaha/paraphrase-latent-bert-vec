@@ -1,0 +1,298 @@
+tmp cases
+[0]
+12.
+[# Info #] file name: ./fixseed/seed0/test_DNPG_base_transformer.txt
+
+Source: Why does society value skinny people more than overweight people ?
+Target: Does society care about skinny people more than overweight people ?
+Input: Why does society value skinny people more than overweight people ?
+Predict: Why does society value skinny people more than overweight people ?
+
+[# Info #] file name: ./fixseed/seed0/transformer_key_enc_bert_val_attention_alpha0.5.txt
+
+Source: What are some examples of awful customer service ?
+Target: Does society care about skinny people more than overweight people ?
+Input: [CLS] Why does society value skinny people more than overweight people ? [SEP]
+Predict: Why do people prefer skinny than others ?
+
+13.
+[# Info #] file name: ./fixseed/seed0/test_DNPG_base_transformer.txt
+
+Source: Is the e commerce industry in India a bubble ?
+Target: Is this e commerce industry in India a bubble ?
+Input: Is the e commerce industry in India a bubble ?
+Predict: Is the e commerce industry in India a bubble ?
+
+[# Info #] file name: ./fixseed/seed0/transformer_key_enc_bert_val_attention_alpha0.5.txt
+
+Source: What does mean ?
+Target: Is this e - commerce industry in India a bubble ?
+Input: [CLS] Is the e - commerce industry in India a bubble ? [SEP]
+Predict: Is e - commerce companies a bubble in India ?
+
+15.
+[# Info #] file name: ./fixseed/seed0/test_DNPG_base_transformer.txt
+
+Source: What was the significance of the battle of Somme and how did this battle compare and contrast to the Battle of Matapan ?
+Target: What was the significance of the battle of Somme and how did this battle compare and contrast to the Battle of The Yellow Sea ?
+Input: What was the significance of the battle of Somme and how did this battle compare and contrast to the Battle of Matapan ?
+Predict: What was the significance of the battle of Somme and how did this battle compare and contrast to the Battle of France ?
+
+[# Info #] file name: ./fixseed/seed0/transformer_key_enc_bert_val_attention_alpha0.5.txt
+
+Source: What are some common examples of thematic maps ?
+Target: What was the significance of the battle of Somme , and how did this battle compare and contrast to the Battle of The Yellow Sea ?
+Input: [CLS] What was the significance of the battle of Somme , and how did this battle compare and contrast to the Battle of Matapan ? [SEP]
+Predict: What was the significance of the battle of Somme , and how did this battle compare and contrast to the Battle of Yalu River ?
+
+
+30.
+[# Info #] file name: ./fixseed/seed0/test_DNPG_base_transformer.txt
+
+Source: Why do so may people ask questions on Quora that can easily be found by a simple Google searh ?
+Target: Why do people on Quora ask silly questions about the facts which can be googled very easily ?
+Input: Why do so may people ask questions on Quora that can easily be found by a simple Google searh ?
+Predict: Why do so many people ask things on Quora that they could just as easily Google ?
+
+[# Info #] file name: ./fixseed/seed0/transformer_key_enc_bert_val_attention_alpha0.5.txt
+
+Source: Is there a possibility to love person at once ?
+Target: Why do people on Quora ask silly questions about the facts which can be googled very easily ?
+Input: [CLS] Why do so may people ask questions on Quora that can easily be found by a simple Google searh ? [SEP]
+Predict: Why do people ask Quora questions which can be answered easily by Google ?
+
+
+
+(failed)
+1.
+[# Info #] file name: ./fixseed/seed0/test_DNPG_base_transformer.txt
+
+Source: How can I speak faster ?
+Predict: How can I speak faster ?
+
+[# Info #] file name: ./fixseed/seed0/transformer_key_enc_bert_val_attention_alpha0.5.txt
+Target: How can you speak faster ?
+Input: [CLS] How can I speak faster ? [SEP]
+Predict: How can I learn faster ?
+
+[777]
+4.
+[# Info #] file name: ./fixseed/seed777/test_DNPG_base_transformer.txt
+Predict: What are the best books for a beginner player ?
+[# Info #] file name: ./fixseed/seed777/transformer_key_enc_bert_val_attention_alpha0.5.txt
+Source: What are the best books a beginner can read to start becoming a good poker player ?
+Target: Besides Super System , what are the best 3 poker books to read for an intermediate player looking to get more serious ?
+Input: [CLS] What are the best books a beginner can read to start becoming a good poker player ? [SEP]
+Predict: What are the best books for studying how to start learning poker ?
+
+6.
+[# Info #] file name: ./fixseed/seed777/test_DNPG_base_transformer.txt
+Predict: Are Near Death Experiences Experiences Experiences Life ?
+[# Info #] file name: ./fixseed/seed777/transformer_key_enc_bert_val_attention_alpha0.5.txt
+Source: Are near death experiences real ?
+Target: Are Near Death Experiences Proved ?
+Input: [CLS] Are near death experiences real ? [SEP]
+Predict: Are Near Death Experiences Proved ?
+
+13.
+
+[# Info #] file name: ./fixseed/seed777/test_DNPG_base_transformer.txt
+
+Source: What are the chances of finding intelligent life on other planets ?
+Target: What forms of life could we find on other planets ?
+Input: What are the chances of finding intelligent life on other planets ?
+Predict: Is there any chances of intelligent life on other planets ?
+
+[# Info #] file name: ./fixseed/seed777/transformer_key_enc_bert_val_attention_alpha0.5.txt
+
+Source: What are the chances of finding intelligent life on other planets ?
+Target: What forms of life could we find on other planets ?
+Input: [CLS] What are the chances of finding intelligent life on other planets ? [SEP]
+Predict: Is there any evidence of intelligent life on other planets ?
+
+16.
+
+[# Info #] file name: ./fixseed/seed777/test_DNPG_base_transformer.txt
+
+Source: I ll adopt in the future should I tell my future kids they re adopted ?
+Target: Should a couple who adopts kids tell the kids they were adopted ?
+Input: I ll adopt in the future should I tell my future kids they re adopted ?
+Predict: I am a year old male . Will I tell my future kids they re adopted ?
+
+[# Info #] file name: ./fixseed/seed777/transformer_key_enc_bert_val_attention_alpha0.5.txt
+
+Source: I ll adopt in the future should I tell my future kids they re adopted ?
+Target: Should a couple who adopts kids , tell the kids they were adopted ?
+Input: [CLS] I ' ll adopt in the future , should I tell my future kids they ' re adopted ? [SEP]
+Predict: I ' ll adopt in the future , should I tell my child they ' re adopted ?
+
+26.
+[# Info #] file name: ./fixseed/seed777/test_DNPG_base_transformer.txt
+
+Source: What is the best way to avoid procrastination ?
+Target: What is the best way to kill procrastination ?
+Input: What is the best way to avoid procrastination ?
+Predict: How can I overcome the procrastination ?
+
+[# Info #] file name: ./fixseed/seed777/transformer_key_enc_bert_val_attention_alpha0.5.txt
+
+Source: What is the best way to avoid procrastination ?
+Target: What is the best way to kill procrastination ?
+Input: [CLS] What is the best way to avoid procrastination ? [SEP]
+Predict: How do I avoid laziness ?
+
+29.
+[# Info #] file name: ./fixseed/seed777/test_DNPG_base_transformer.txt
+
+Source: Can anyone edit wikipedia ?
+Target: Who edits Wikipedia ?
+Input: Can anyone edit wikipedia ?
+Predict: Can someone edit Wikipedia ?
+
+[# Info #] file name: ./fixseed/seed777/transformer_key_enc_bert_val_attention_alpha0.5.txt
+
+Source: Can anyone edit wikipedia ?
+Target: Who edits Wikipedia ?
+Input: [CLS] Can anyone edit wikipedia ? [SEP]
+Predict: Can I edit wikipedia ?
+
+
+[33333]
+
+2.
+Source: Why do most of the developers in Silicon Valley prefer OS X over Linux or Windows ?
+Target: Why should someone choose Windows over Mac OS X or Linux ?
+Input: [CLS] Why do most of the developers in Silicon Valley prefer OS X over Linux or Windows ? [SEP]
+Predict: Why do programmer prefer OS X over Linux ?
+
+4.
+
+[# Info #] file name: ./fixseed/seed33333/test_DNPG_base_transformer.txt
+Predict: How do you know if your inner talent ?
+[# Info #] file name: ./fixseed/seed33333/transformer_key_enc_bert_val_attention_alpha0.5.txt
+Source: How do I know my inner talent ?
+Target: What can you do to find your talent ?
+Input: [CLS] How do I know my inner talent ? [SEP]
+Predict: How can I find my inner talent ?
+
+
+7.
+[# Info #] file name: ./fixseed/seed33333/test_DNPG_base_transformer.txt
+Predict: What are the best resources to learn programming for a beginner ?
+
+[# Info #] file name: ./fixseed/seed33333/transformer_key_enc_bert_val_attention_alpha0.5.txt
+Source: What are the best programming resources on the web ?
+Target: What are the best resources ( blogs , videos , websites etc . ) for learning programming ?
+Input: [CLS] What are the best programming resources on the web ? [SEP]
+Predict: What are the best websites to learn computer programming and web programming ?
+
+11.
+
+[# Info #] file name: ./fixseed/seed33333/test_DNPG_base_transformer.txt
+
+Source: What is the easiest way to enrich vocabulary ?
+Target: What is the best way to learn vocabulary ?
+Input: What is the easiest way to enrich vocabulary ?
+Predict: How do I expand my vocabulary ?
+
+[# Info #] file name: ./fixseed/seed33333/transformer_key_enc_bert_val_attention_alpha0.5.txt
+
+Source: What is the easiest way to enrich vocabulary ?
+Target: What is the best way to learn vocabulary ?
+Input: [CLS] What is the easiest way to enrich vocabulary ? [SEP]
+Predict: How can I increase my vocabulary ?
+
+14. 
+
+[# Info #] file name: ./fixseed/seed33333/test_DNPG_base_transformer.txt
+
+Source: I recently joined an IT company after completing my B .Tech in mechanical engineering . How do I excel in my career ?
+Target: How will a gap of two years after earning a mechanical B .Tech affect my career ?
+Input: I recently joined an IT company after completing my B .Tech in mechanical engineering . How do I excel in my career ?
+Predict: What are the best career options for an electrical and electronics engineer ?
+
+[# Info #] file name: ./fixseed/seed33333/transformer_key_enc_bert_val_attention_alpha0.5.txt
+
+Source: I recently joined an IT company after completing my B .Tech in mechanical engineering . How do I excel in my career ?
+Target: How will a gap of two years after earning a mechanical B . Tech affect my career ?
+Input: [CLS] I recently joined an IT company after completing my B . Tech in mechanical engineering . How do I excel in my career ? [SEP]
+Predict: How will be my career if I chose MBA after b . tech in mechanical engineering ?
+
+20.
+[# Info #] file name: ./fixseed/seed33333/test_DNPG_base_transformer.txt
+
+Source: How can I get started with LinkedIn ?
+Target: How do I get started to LinkedIn ?
+Input: How can I get started with LinkedIn ?
+Predict: How do I start using LinkedIn ?
+
+[# Info #] file name: ./fixseed/seed33333/transformer_key_enc_bert_val_attention_alpha0.5.txt
+
+Source: How can I get started with LinkedIn ?
+Target: How do I get started to LinkedIn ?
+Input: [CLS] How can I get started with LinkedIn ? [SEP]
+Predict: How can I learn to use LinkedIn ?
+
+26.
+[# Info #] file name: ./fixseed/seed33333/test_DNPG_base_transformer.txt
+
+Source: How can I quickly get rid of belly fat as a male ?
+Target: How do I get rid of belly fat and thigh fat ?
+Input: How can I quickly get rid of belly fat as a male ?
+Predict: How do I get rid of belly fat and thigh fat ?
+
+[# Info #] file name: ./fixseed/seed33333/transformer_key_enc_bert_val_attention_alpha0.5.txt
+
+Source: How can I quickly get rid of belly fat as a male ?
+Target: How do I get rid of belly fat and thigh fat ?
+Input: [CLS] How can I quickly get rid of belly fat as a male ? [SEP]
+Predict: How can I lose body fat in my belly and chest ?
+
+37.
+[# Info #] file name: ./fixseed/seed33333/test_DNPG_base_transformer.txt
+
+Source: I am studying MRES Biomedical Science . What are your best poster topic suggestions ?
+Target: I am studying MRes biomedical Science . What are your best topic poster suggestions ?
+Input: I am studying MRES Biomedical Science . What are your best poster topic suggestions ?
+Predict: I am studying science . What are your best pictures ?
+
+[# Info #] file name: ./fixseed/seed33333/transformer_key_enc_bert_val_attention_alpha0.5.txt
+
+Source: I am studying MRES Biomedical Science . What are your best poster topic suggestions ?
+Target: I am studying MRes biomedical Science . What are your best topic poster suggestions ?
+Input: [CLS] I am studying MRES Biomedical Science . What are your best poster topic suggestions ? [SEP]
+Predict: What are some good subjects to study about Biomedical science ?
+
+
+line 33472
+[# Info #] file name: ./fixseed/seed33333/test_DNPG_base_transformer.txt
+Source: How can I grow in spiritual awareness ?
+Target: How can I grow spiritually ?
+Input: How can I grow in spiritual awareness ?
+Predict: How do I grow in spiritual awareness ?
+
+[# Info #] file name: ./fixseed/seed33333/transformer_key_enc_bert_val_attention_alpha0.5.txt
+Source: How can I grow in spiritual awareness ?
+Target: How can I grow spiritually ?
+Input: [CLS] How can I grow in spiritual awareness ? [SEP]
+Predict: How can I be more peaceful and satisfied in spiritual awareness ?
+
+"peaceful" is not in base transformer dictionary
+
+(failed)
+9.
+[# Info #] file name: ./fixseed/seed33333/test_DNPG_base_transformer.txt
+
+Source: How can I start preparing for ias exam ? I have yrs .
+Target: As an engineering rd year student what should I start preparing for IAS exam ?
+Input: How can I start preparing for ias exam ? I have yrs .
+Predict: How do I start preparation for IAS exam ?
+
+[# Info #] file name: ./fixseed/seed33333/transformer_key_enc_bert_val_attention_alpha0.5.txt
+
+Source: How can I start preparing for ias exam ? I have yrs .
+Target: As an engineering 3rd year student what should I start preparing for IAS exam ?
+Input: [CLS] How can I start preparing for ias exam ? I have 4 yrs . [SEP]
+Predict: How do I start preparing for civil services ?
+
+
